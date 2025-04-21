@@ -13,4 +13,5 @@ public class ProfileUser: NSManagedObject {
     @NSManaged var name: String
     @NSManaged var email: String
     @NSManaged var mobile: String
+    @NSManaged var mobil1e: String
 }
