@@ -18,6 +18,9 @@ class ViewController: UIViewController {
         if let mapViewController = self.storyboard?.instantiateViewController(withIdentifier: ViewControllerIdentifier.mapViewController) as? MapViewController {
             self.navigationController?.pushViewController(mapViewController, animated: true)
         }
+        if let mapViewController = self.storyboard?.instantiateViewController(withIdentifier: ViewControllerIdentifier.mapViewController) as? MapViewController {
+            self.navigationController?.pushViewController(mapViewController, animated: true)
+        }
     }
     
     @IBAction func openListView(_ sender: Any) {
