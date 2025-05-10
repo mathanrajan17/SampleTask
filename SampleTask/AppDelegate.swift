@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         GMSServices.provideAPIKey(Constant.googleMapKey) // DOTO : Add your google map key.
         NetworkMonitor.shared.startMonitoring()
+        
         return true
     }
 
